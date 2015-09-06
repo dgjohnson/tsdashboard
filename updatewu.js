@@ -43,7 +43,7 @@ module.exports = function(){
       for(var i = 0; i < data[0].senses.length; i++){
         var sense = data[0].senses[0];
         if (sense.sId === '0x00060100'){
-          tempf = 'tempf=' + Math.floor(sense.val * 1.8 + 32) + '&';
+          tempf = 'tempf=' +(sense.val * 1.8 + 32).toFixed(2) + '&';
         }
 
         if (sense.sId === '0x00060200'){
