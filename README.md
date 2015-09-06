@@ -33,4 +33,9 @@ Create configuration file config.js to top level of TSWUB distribution. It shoul
 
 Run the app:
 
-    PORT=8080 ./bin/www
+    $ PORT=8080 ./bin/www
+
+
+## License
+
+[MIT](https://github.com/jvestman/tswub/blob/master/LICENSE)
