@@ -24,10 +24,10 @@ be running the TSWUB.
 
 Create configuration file config.js to top level of TSWUB distribution. It should have the following contents:
 
-    {
+    exports.module = {
       id: '<Weather Underground Station Id>',
       password: '<Your WU password>'
-    }
+    };
 
 ### 4. Run the app
 
