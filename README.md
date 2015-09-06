@@ -4,7 +4,7 @@ Thingsee - Weather Underground Bridge – Receives sensor data from Things One a
 ## Description
 
 TSWUB is an node/express.js application that listens http connections from Thingsee one
-sensor device and sends the environment sensor (temperature, humidity and barometric pressure) to
+sensor device and sends the environment sensor data (temperature, humidity and barometric pressure) to
 Weather Underground.
 
 ## Instructions
