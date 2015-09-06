@@ -9,6 +9,10 @@ Weather Underground.
 
 ## Instructions
 
+### 0. Install TSWUB dependencies
+
+    $ npm install --production
+
 ### 1. Register Weather Underground Personal Weather Station
 
 Register a personal weather station at [Weather Underground](http://www.wunderground.com/personal-weather-station/signup.asp). Keep your WU password
